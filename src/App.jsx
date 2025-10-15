@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import Footer from './Components/Footer'
+import About from './Components/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
   return (
     <div className='flex flex-col min-h-screen'>
       <Navbar/>
-      <Hero/>
+      {/* <Hero/> */}
+      <About/>
       <Footer/>
     </div>
   )
