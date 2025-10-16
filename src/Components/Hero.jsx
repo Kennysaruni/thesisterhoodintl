@@ -24,9 +24,9 @@ function Hero() {
                 <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
                     <div className='max-w-4xl mx-auto space-y-12'>
                         <div className='text-center'>
-                            <h2 className='text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl'>Who We Are</h2>
+                            <h2 className='text-3xl font-bold tracking-tight text-amber-300 dark:text-white sm:text-4xl'>Who We Are</h2>
                              <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                               Welcome to the official page of THE SISTERHOOD INTERNATIONAL a chapter of H.C.H.S past
+                               Welcome to the official page of <span className='text-blue-700'>THE SISTERHOOD INTERNATIONAL</span> a chapter of H.C.H.S past
                                 alums. This body was formed in July 2018 and became official in November 2020. The
                                 intent of this group is to be able to give back to an Alum who may need a hand
                                 financially, mentally or physically. We also work to give back to Holy Childhood High
@@ -34,7 +34,7 @@ function Hero() {
                             </p>
                         </div>
                         <div className='text-center'>
-                             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">What
+                             <h2 className="text-3xl font-bold tracking-tight text-blue-700 dark:text-white sm:text-4xl">What
                                 We Do</h2>
                             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
                                 We organize workshops, provide resources, and facilitate networking opportunities to

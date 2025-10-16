@@ -19,7 +19,7 @@ function About() {
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start'>
                     <div className='space-y-8'>
                         <div>
-                            <h2 className='text-3xl font-bold text-gray-900 dark:text-white mb-4'>Mission Statement</h2>
+                            <h2 className='text-3xl font-bold text-blue-700 dark:text-white mb-4'>Mission Statement</h2>
                             <p className="text-base leading-relaxed text-gray-600 dark:text-gray-400">
                                 The Sisterhood Intl is a non-profit organization dedicated to fostering a supportive
                                 community for women. Our mission is to empower women through mentorship, networking,
@@ -29,7 +29,7 @@ function About() {
                             </p>
                         </div>
                         <div>
-                            <h2 className='text-3xl font-bold text-gray-900 dark:text-white mb-4'>Vision Statement</h2>
+                            <h2 className='text-3xl font-bold text-blue-700 dark:text-white mb-4'>Vision Statement</h2>
                             <p className="text-base leading-relaxed text-gray-600 dark:text-gray-400">
                                 The Sisterhood vision is to one day become an institution that will lend support to
                                 any sister in need. It is our FUTURE goal to offer scholarships to students that are
@@ -42,7 +42,7 @@ function About() {
                         </div>
                     </div>
                     <div className='space-y-8'>
-                        <h2 className='text-3xl font-bold text-gray-900 dark:text-white mb-4'>Conduct</h2>
+                        <h2 className='text-3xl font-bold text-amber-300 dark:text-white mb-4'>Conduct</h2>
                         <ul className='space-y-4 text-base text-gray-600 dark:text-gray-400'>
                             <li className='flex items-start gap-3'>
                                 <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
