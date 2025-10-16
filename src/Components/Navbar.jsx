@@ -13,7 +13,7 @@ function Navbar() {
         }
     }, [isOpen]);
 
-    // 2. Update the paths to match your routes
+
     const navLinks = [
         { name: "HOME", path: "/" },
         { name: "ABOUT", path: "/about" },
@@ -22,7 +22,7 @@ function Navbar() {
         { name: "CONTACT US", path: "/contact" },
     ];
 
-    // Style for the active NavLink
+ 
     const activeLinkStyle = 'text-primary dark:text-primary';
     const inactiveLinkStyle = 'text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary';
 
@@ -39,11 +39,11 @@ function Navbar() {
                         
                         <nav className='hidden md:flex items-center space-x-5'>
                             {navLinks.map((link) => (
-                                // 4. Replace <a> with NavLink and use `to` instead of `href`
+                                
                                 <NavLink 
                                     key={link.name} 
                                     to={link.path} 
-                                    // This function applies styles based on whether the link is active
+                                    
                                     className={({ isActive }) => `${isActive ? activeLinkStyle : inactiveLinkStyle} text-sm font-medium transition-colors`}
                                 >
                                     {link.name}
