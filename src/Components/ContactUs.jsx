@@ -67,7 +67,7 @@ function ContactUs() {
                         If you would like to join us please sign up using the form below...until then we have our meetings on Zoom
                         <strong className="text-blue-900"> Meeting ID: 309 451 9651</strong>.
                     </p>
-                    <form className="space-y-6 mt-8">
+                    <form className="space-y-6 mt-8" action='https://getform.io/f/adrdpmra' method='POST'>
                         <div>
                             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300"
                                 for="full-name">Full Name</label>
