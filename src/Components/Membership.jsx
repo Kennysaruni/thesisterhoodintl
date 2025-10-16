@@ -49,7 +49,7 @@ function Membership() {
                 <div className="max-w-4xl mx-auto space-y-8 mt-8">
                     <div
                         className="bg-white dark:bg-background-dark p-6 sm:p-8 rounded-xl shadow-md border border-slate-200 dark:border-slate-800">
-                        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4">Membership
+                        <h2 className="text-2xl sm:text-3xl font-bold text-blue-800 dark:text-white mb-4">Membership
                             Requirements</h2>
                         <div className="prose prose-slate dark:prose-invert max-w-none space-y-4">
                             <p>To become a member of The Sisterhood Intl, you must meet the following criteria:</p>
@@ -72,7 +72,7 @@ function Membership() {
                     </div>
                     <div
                         className="bg-white dark:bg-background-dark p-6 sm:p-8 rounded-xl shadow-md border border-slate-200 dark:border-slate-800">
-                        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4">Payment
+                        <h2 className="text-2xl sm:text-3xl font-bold text-amber-400 dark:text-white mb-4">Payment
                             Methods</h2>
                         <div className="prose prose-slate dark:prose-invert max-w-none">
                             <p>We accept payments through the following methods:</p>
@@ -96,7 +96,7 @@ function Membership() {
                     </div>
                     <div
                         className="bg-white dark:bg-background-dark p-6 sm:p-8 rounded-xl shadow-md border border-slate-200 dark:border-slate-800">
-                        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4">Commitment
+                        <h2 className="text-2xl sm:text-3xl font-bold text-blue-800 dark:text-white mb-4">Commitment
                         </h2>
                         <p className="prose prose-slate dark:prose-invert max-w-none">
                             We ask that you commit a minimum of 3-4 meetings per year and be prepared for 2-4 hours per month for the monthly meetings and the other scheduled events that The Sisterhood International may have.
