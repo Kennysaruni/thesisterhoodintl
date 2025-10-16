@@ -92,20 +92,6 @@ function Membership() {
                                     </a>
                                 ))}
                             </div>
-                            {/* <div className='flex flex-wrap gap-4 mb-8 mt-8'>
-                                    <button className='flex items-center gap-3 p-5 rounded-lg bg-primary/10 dark:bg-primary/20 hover:bg-blue-500 dark:hover:bg-primary/30 transition-colors mx-auto'>
-                                        <IoLogoPaypal className='text-blue-700'/> <span className='font-medium text-gray-700 dark:text-gray-300'> Paypal</span>
-                                    </button>
-                                    <button className='flex items-center gap-3 p-5 rounded-lg bg-primary/10 dark:bg-primary/20 hover:bg-green-500 dark:hover:bg-primary/30 transition-colors mx-auto'>
-                                        <BiLogoVenmo className='text-green-700'/> <span className='font-medium text-gray-700 dark:text-gray-300'> Venmo</span>
-                                    </button>
-                                    <button className='flex items-center gap-3 p-5 rounded-lg bg-primary/10 dark:bg-primary/20 hover:bg-green-300 dark:hover:bg-primary/30 transition-colors mx-auto'>
-                                        <TbBrandCashapp className='text-green-500'/> <span className='font-medium text-gray-700 dark:text-gray-300'> Cash App</span>
-                                    </button>
-                                    <button className='flex items-center gap-3 p-5 rounded-lg bg-primary/10 dark:bg-primary/20 hover:bg-purple-500 dark:hover:bg-primary/30 transition-colors mx-auto'>
-                                        <SiZelle className='text-purple-600'/> <span className='font-medium text-gray-700 dark:text-gray-300'> Zelle</span>
-                                    </button>
-                                </div> */}
                         </div>
                     </div>
                     <div
