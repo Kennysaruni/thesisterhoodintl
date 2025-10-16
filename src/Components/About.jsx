@@ -94,7 +94,7 @@ function About() {
                     </div>
                 </div>
                 <div className='mt-16 lg:mt-24'>
-                    <h2 className='text-3xl font-bold text-center text-amber-300 dark:text-white mb-5'>Core Values</h2>
+                    <h2 className='text-3xl font-bold text-center text-blue-700 dark:text-white mb-5'>Core Values</h2>
                     <p className='text-base leading-relaxed text-gray-600 dark:text-gray-400 text-center mb-10'>The Sisterhood core values can be summed up with these simple words </p>
                     <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4'>
                         <div className='flex flex-col items-center text-center p-6 bg-white dark:bg-background-black/50 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300'>
