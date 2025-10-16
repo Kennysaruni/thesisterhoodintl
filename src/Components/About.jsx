@@ -95,7 +95,46 @@ function About() {
                                 </span>
                             </li>
                         </ul>
-
+                    </div>
+                </div>
+                <div className='mt-16 lg:mt-24'>
+                    <h2 className='text-3xl font-bold text-center text-amber-300 dark:text-white mb-5'>Core Values</h2>
+                    <p className='text-base leading-relaxed text-gray-600 dark:text-gray-400 text-center mb-10'>The Sisterhood core values can be summed up with these simple words </p>
+                    <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4'>
+                        <div className='flex flex-col items-center text-center p-6 bg-white dark:bg-background-black/50 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300'>
+                            <span className="material-symbols-outlined text-primary text-4xl mb-3">handshake</span>
+                            <h3 className="text-base font-bold text-gray-900 dark:text-white">Respect</h3>
+                        </div>
+                        <div
+                            className="flex flex-col items-center text-center p-6 bg-white dark:bg-background-dark/50 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                            <span className="material-symbols-outlined text-primary text-4xl mb-3">shield</span>
+                            <h3 className="text-base font-bold text-gray-900 dark:text-white">Integrity</h3>
+                        </div>
+                        <div
+                            className="flex flex-col items-center text-center p-6 bg-white dark:bg-background-dark/50 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                            <span className="material-symbols-outlined text-primary text-4xl mb-3">favorite</span>
+                            <h3 className="text-base font-bold text-gray-900 dark:text-white">Courage</h3>
+                        </div>
+                        <div
+                            className="flex flex-col items-center text-center p-6 bg-white dark:bg-background-dark/50 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                            <span className="material-symbols-outlined text-primary text-4xl mb-3">diversity_3</span>
+                            <h3 className="text-base font-bold text-gray-900 dark:text-white">Diversity</h3>
+                        </div>
+                        <div
+                            className="flex flex-col items-center text-center p-6 bg-white dark:bg-background-dark/50 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                            <span className="material-symbols-outlined text-primary text-4xl mb-3">balance</span>
+                            <h3 className="text-base font-bold text-gray-900 dark:text-white">Equality</h3>
+                        </div>
+                        <div
+                            className="flex flex-col items-center text-center p-6 bg-white dark:bg-background-dark/50 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                            <span className="material-symbols-outlined text-primary text-4xl mb-3">loyalty</span>
+                            <h3 className="text-base font-bold text-gray-900 dark:text-white">Loyalty</h3>
+                        </div>
+                        <div
+                            className="flex flex-col items-center text-center p-6 bg-white dark:bg-background-dark/50 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                            <span className="material-symbols-outlined text-primary text-4xl mb-3">visibility</span>
+                            <h3 className="text-base font-bold text-gray-900 dark:text-white">Transparency</h3>
+                        </div>
                     </div>
                 </div>
             </div>
