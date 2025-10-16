@@ -6,6 +6,8 @@ import Footer from './Components/Footer'
 import About from './Components/About'
 import News from './Components/News'
 import ContactUs from './Components/ContactUs'
+import Donate from './Components/Membership'
+import Membership from './Components/Membership'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +18,8 @@ function App() {
       {/* <Hero/> */}
       {/* <About/> */}
       {/* <News/> */}
-      <ContactUs/>
+      {/* <ContactUs/> */}
+      <Membership/>
       <Footer/>
     </div>
   )
