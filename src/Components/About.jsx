@@ -21,11 +21,7 @@ function About() {
                         <div>
                             <h2 className='text-3xl font-bold text-blue-700 dark:text-white mb-4'>Mission Statement</h2>
                             <p className="text-base leading-relaxed text-gray-600 dark:text-gray-400">
-                                The Sisterhood Intl is a non-profit organization dedicated to fostering a supportive
-                                community for women. Our mission is to empower women through mentorship, networking,
-                                and resource sharing, enabling them to achieve their personal and professional
-                                goals. We strive to create a safe and inclusive space where women can connect,
-                                collaborate, and uplift one another, regardless of their backgrounds or aspirations.
+                                The Sisterhood mission is to create a sense of belonging and connectivity between members of our alum. The Sisterhood seeks to embrace and operate with integrity to create a positive atmosphere to foster love, care and unity among all. The Sisterhood will engage in interactions of different discussions to enlighten, respect viewpoints and build confident minds
                             </p>
                         </div>
                         <div>
