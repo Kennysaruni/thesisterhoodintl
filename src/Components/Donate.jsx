@@ -82,9 +82,7 @@ function Donate() {
                                 <a
                                     key={method.name}
                                     href={method.href}
-                                    // target="_blank" opens the link in a new tab
                                     target="_blank"
-                                    // rel="noopener noreferrer" is a security best practice for external links
                                     rel="noopener noreferrer"
                                     className={`flex items-center gap-3 p-4 rounded-lg bg-primary/10 dark:bg-primary/20 transition-colors ${method.hoverClass}`}
                                 >
