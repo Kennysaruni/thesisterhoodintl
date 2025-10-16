@@ -5,6 +5,7 @@ import Hero from './Components/Hero'
 import Footer from './Components/Footer'
 import About from './Components/About'
 import News from './Components/News'
+import ContactUs from './Components/ContactUs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,8 @@ function App() {
       <Navbar/>
       {/* <Hero/> */}
       {/* <About/> */}
-      <News/>
+      {/* <News/> */}
+      <ContactUs/>
       <Footer/>
     </div>
   )
