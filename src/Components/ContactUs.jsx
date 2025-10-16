@@ -45,7 +45,7 @@ function ContactUs() {
         <main className='flex-grow container mx-auto px-6 py-12'>
             <div className='max-w-4xl mx-auto'>
                 <div className='bg-background-light dark:bg-background-dark p-8 rounded-lg shadow-lg'>
-                    <h3 className='text-2xl font-bold text-blue-700 dark:text-gray-200 mb-4 border-l-4 border-primary pl-4'>
+                    <h3 className='text-2xl font-bold text-blue-900 dark:text-gray-200 mb-4 border-l-4 border-primary pl-4'>
                         Connect With Us
                     </h3>
                     <div className='flex flex-wrap gap-4 mb-8'>
