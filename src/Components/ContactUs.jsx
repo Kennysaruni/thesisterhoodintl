@@ -35,7 +35,7 @@ function ContactUs() {
             icon: <span className="material-symbols-outlined text-primary">call</span>,
         },
         {
-            name: 'hoodintl@gmail.com',
+            name: 'thesisterhoodintl@gmail.com',
             href: 'mailto:thesisterhoodintl@gmail.com',
             icon: <span className="material-symbols-outlined text-primary">mail</span>,
         },
