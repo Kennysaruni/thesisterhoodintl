@@ -3,7 +3,7 @@ import img from '../assets/IMG_1621.jpeg'
 
 function About() {
     return (
-        <main className='flex-1 font-display'>
+        <main className='flex-1 font-display bg-background-light'>
             <div className='relative h-96 w-full'>
                 <img
                     src={img}
