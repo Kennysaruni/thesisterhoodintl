@@ -37,14 +37,14 @@ function Navbar() {
                             <h1 className='text-xl font-bold text-gray-800 dark:text-white'>The Sisterhood Intl</h1>
                         </NavLink>
                         
-                        <nav className='hidden md:flex items-center space-x-5'>
+                        <nav className='hidden md:flex items-center text-center gap-x-5'>
                             {navLinks.map((link) => (
                                 
                                 <NavLink 
                                     key={link.name} 
                                     to={link.path} 
                                     
-                                    className={({ isActive }) => `${isActive ? activeLinkStyle : inactiveLinkStyle} text-sm font-medium transition-colors`}
+                                    className={({ isActive }) => `${isActive ? activeLinkStyle : inactiveLinkStyle} text-center text-sm font-medium transition-colors`}
                                 >
                                     {link.name}
                                 </NavLink>

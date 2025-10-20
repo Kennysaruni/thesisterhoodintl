@@ -64,7 +64,7 @@ function Footer() {
 
                     <div className='space-y-4'>
                         <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>Connect With Us</h3>
-                        <div className='flex justify-between w-xs'>
+                        <div className='flex gap-x-5 w-xs'>
                             {socialLinks.map((social) => (
                                 <a 
                                     key={social.name} 
