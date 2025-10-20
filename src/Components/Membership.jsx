@@ -34,8 +34,8 @@ function Membership() {
     ];
     return (
         <main className='flex-1 font-display bg-background-light'>
-            <div className='w-full mx-auto'>
-                <div className='relative h-96 w-full'>
+            <div className='w-full mx-auto '>
+                <div className='relative h-96 w-full '>
                     <img
                         src={img}
                         alt="Women empowering each other at an event"
@@ -46,7 +46,7 @@ function Membership() {
                         <h1 className="text-5xl font-bold text-white text-center">Membership</h1>
                     </div>
                 </div>
-                <div className="max-w-4xl mx-auto space-y-8 mt-8">
+                <div className="max-w-4xl mx-auto space-y-8 mt-8 p-4">
                     <div
                         className="bg-white dark:bg-background-dark p-6 sm:p-8 rounded-xl shadow-md border border-slate-200 dark:border-slate-800">
                         <h2 className="text-2xl sm:text-3xl font-bold text-blue-800 dark:text-white mb-4">Membership
