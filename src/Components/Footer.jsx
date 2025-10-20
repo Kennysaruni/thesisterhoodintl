@@ -85,7 +85,7 @@ function Footer() {
                 <div className="mt-8 border-t border-gray-200 dark:border-gray-800 pt-8 text-center text-sm text-gray-500 dark:text-gray-400">
                     <p>© {new Date().getFullYear()} The Sisterhood Intl. All rights reserved.</p>
                     <p className='mt-3'>We are our sister's keeper, so we are never alone</p>
-                    <p>Made by <a href='https://macklemoresolutions.com/' target='_blank' className='hover:text-amber-300 mt-3'>Latimore</a></p>
+                    <p>Made by <a href='https://macklemoresolutions.com/' target='_blank' className='hover:text-amber-300 mt-3'>Macklemore Solutions</a></p>
                 </div>
             </div>
         </footer>
