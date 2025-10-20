@@ -12,8 +12,6 @@ function Footer() {
         { name: "CONTACT US", path: "/contact" },
         { name: "DONATE", path: "/donate" },
     ];
-
-    const loga = { name: 'Reuben', pass: 'Reuben'}
     
     const socialLinks = [
         { name: 'Facebook', href: '#', icon: FaFacebook },
@@ -27,7 +25,7 @@ function Footer() {
         <footer className='bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-800 mt-5'>
             <div className='container mx-auto px-4 sm:px-6 lg:px-8 py-12'>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-                    <div className='space-y-4'>
+                    <div className='flex flex-col items-center md:items-start text-center md:text-left space-y-4'>
                         <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>The Sisterhood Intl</h3>
                         <div className='space-y-3 text-gray-600 dark:text-gray-400'>
                             <div className='flex items-start gap-3'>
@@ -66,7 +64,7 @@ function Footer() {
 
                     <div className='space-y-4'>
                         <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>Connect With Us</h3>
-                        <div className='flex space-x-4'>
+                        <div className='flex justify-between w-xs'>
                             {socialLinks.map((social) => (
                                 <a 
                                     key={social.name} 
@@ -91,6 +89,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
+
     );
 }
 
